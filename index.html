@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Efront</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div Apresentação>
+        <h1> Projeto Efront </h1>
+        <h2> Criado para desenvolver HTML + CSS + Java Script</h2>
+        <h2>1° Módulo: HTML</h2>
+        <p>HTML (Hypertext Markup Language ou Linguagem de Marcação de
+            HiperTexto) é uma linguagem de marcação (não de programação) da
+            web - cada vez que você carrega uma página da web, você está
+            carregando um código HTML. Pense no HTML como o esqueleto de uma
+            página, ele é responsável pelos textos, links, listas e imagens.
+        </p><br>
+    </div>
+    <div TítulosETextos>
+        <h1>Títulos e Textos</h1>
+        <p>Tag < p> usada para parágrafos</p>
+        <p>Tags H1 usadas para títulos de vários tamanhos:</p>
+        <h1>Título da h1</h1>
+        <h2>Título da h2</h2>
+        <h3>Título da h3</h3>
+        <h4>Título da h4</h4>
+        <h5>Título da h5</h5>
+        <h6>Título da h6</h6>
+        <span>
+            < span> usado para agrupar pequenos parágafos
+        </span> <br>
+        <b>
+            < b> deixa o texto em negrito
+        </b><br>
+        <i>
+            < i> deixa o texto em itálico
+        </i><br>
+        < hr>Cria linha horizontal
+            <hr>
+            <strong>
+                < strong> usada para forçar a busca por essa palavra chave
+            </strong>
+    </div>
+    <hr>
+    <div Tags de medidas>
+        <h1>Tags de medidas</h1>
+        <p>As tags de medias ajuda na criação de experiências multimídia em uma
+            página da web. Isso é, adicionar em nossas páginas imagens, vídeos,
+            áudios e entre outros conteúdos de medias.</p>
+        <h2> Imagem</h2>
+        <p><b>
+                < img src "nomeDaPasta/nomeDoArquivo.formato" alt="descrição sobre a imagem" </b>
+        </p>
+
+        <img src="img/efront.png" alt="Imagem efront e descrição" />
+
+        <h2>Áudios</h2>
+        <p><b>
+                < audio controls> <br>
+                    < source src="arquivo.mp3" type="audio/mpeg" /> <br>
+                    < / audio>
+            </b></p>
+        <audio controls>
+            <source src="audio/NEFFEX - Fight Backaudio.mp3" type="audio/mp3" />
+        </audio><br>
+
+        <h2>Vídeo</h2>
+        <p><b>
+                < video width="320" crontrols> <br>
+                    < source src=" video.mp4" type="video/mp4" /> <br>
+                    < /video>
+            </b></p>
+
+        <video width="320" controls>
+            <source src="Vídeos/neffex.mp4" type="video/mp4" />
+        </video>
+    </div>
+    <hr>
+    <div IframeElinks>
+        <h2>Iframe e links</h2>
+        <p><b>
+                < iframe src="link" <br>
+                    style="width:100%; height:350px;"> <br>
+                    < /iframe>
+            </b></p>
+        <iframe src="https://www.linkedin.com/in/lucas-loeffler-70997a240/" style="width: 100%; height:350;">
+        </iframe>
+
+        <p> Canvas é uma boa escolha para desenvolvimento de jogos com uso
+            intensivo de gráficos, então se você deseja criar um jogo em JavaScript a
+            utilização da tag < canvas> será essencial.
+                <br>
+                <b>
+                    < canvas id="Jogo" width="400" height="250"> <br>
+                        Opa, ocorreu um erro!<br>
+                    </ canvas>
+                </b></p>
+
+        <canvas id="Jogo" width="10" height="10">
+            Opa, ocorreu um erro!
+        </canvas>
+        <br>
+        <p>Para inserir um link:<br>
+            <b>
+                < a href="Nome do  local">Nome do botão </ a>
+            </b>
+        </p>
+        <a href="testecss.html">Testando css</a>
+
+        <h2>Tabelas</h2>
+        <p><b>
+                < table>
+                    < /table>
+            </b> <br>
+            Linha <b>
+                < tr>
+                    < /tr>
+            </b><br>
+            Cabeçalho<b>
+                < th>
+                    < /th>
+            </b><br>
+            Coluna <b>
+                < td>
+                    < /td>
+            </b><br>
+            Definindo a legenda de uma tabela < caption>
+                < /caption> </b><br>
+                    Criando rodapé <b>
+                        < tfoot>
+                            < /tfoot>
+                    </b><br>
+                    Especifica grupo de uma ou mais colunas em uma tabela para <br>
+                    formatação <b>
+                        < colgroup>
+                            < /colgroup>
+                    </b><br>
+                    Agrupa o conteúdo do cabeçalho em uma tabela <b>
+                        < thead> </ thead>
+                    </b><br>
+                    Agrupa o conteúdo do corpo em uma tabela3 <b>
+                        < tbody></ tbody>
+                    </b><br>
+                    Agrupa o conteúdo do rodapé em uma tabela <b>
+                        < tfoot>
+                            < /tfoot>
+                    </b><br>
+                    <table>
+                        <caption>Legenda fica aqui</caption>
+                        <tfoot>Aqui fica o rodapé da tabela</tfoot>
+                        <tr>
+                            <th>Nome</th>
+                            <th>idade</th>
+                            <th>E-mail</th>
+                            <th>telefone</th>
+                        </tr>
+                        <tr>
+                            <td>Loeffler</td>
+                            <td>20</td>
+                            <td>lucasgloeffler@gmail.com</td>
+                            <td>49911******</td>
+                        </tr>
+                    </table>
+
+
+                    <h2>Listas</h2>
+                    <p>É necessário colocar a tag <b>
+                            < li>
+                                < /li>
+                        </b> em cada elemento da lista independente do seu tipo</p>
+                    <p>Podem ser <b>Ordenadas</b><b>
+                            < ol>
+                                < /ol>
+                        </b><br></p>
+                    <ol>
+                        <li>Primeiro elemento</li>
+                        <li>Segundo elemento</li>
+                        <li>Terceiro elemento</li>
+                        <li>Quarto elemento</li>
+                    </ol>
+                    <p>Ou <b>Desordenadas</b><b>
+                            < ul>
+                                < /ul>
+                        </b> <br></p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+
+
+        </p>
+    </div>
+    <hr>
+    <div Formulários>
+        <h2>Formulários</h2>
+        <p>widgets podem ser campos de texto, caixas de seleção, botões,<br>
+            checkboxes, radio buttons e entre outros elementos HTML.<br>
+            Para construir o nosso formulário de contato, vamos utilizar os seguintes<br>
+            elementos: <b>
+                < form>, < label>, < input>, < textarea> e < button>.
+            </b></p>
+
+        <form action="/" method="post"></form>
+
+        <p><b>Envie uma mensagem:</b></p>
+
+        <form action="/" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <br>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <br>
+
+            <input type="submit" value="Enviar">
+        </form>
+
+        <p>
+        O elemento <b>< label></b> é a maneira formal de definir um rótulo.<br>
+        O elemento <b>< input></b> é usado para criar controles interativos que receber<br>
+        dados do usuário. A semântica de um <b>< input></b> varia consideravelmente<br>
+        dependendo do valor de seu atributo type<br>
+        <br>
+        Um botão com comportamento padrão:<b> type="button"</b><br>
+        Uma caixa de marcação: <b>type="checkbox"</b><br>
+        Um controle para especificar cor: <b>type="color"</b><br>
+        Um controle para inserir uma data: <b>type="date"</b><br>
+        Um campo para editar um endereço de e-mail: <b>type="email"</b><br>
+        Um controle que permite ao usuário selecionar um arquivo: <b>type="file"</b><br>
+        Um campo de senha cujo valor é ocultado: <b>type="password"</b><br>
+        Um campo de texto com uma única linha para digitar termos de busca: <b>type="search"</b><br>
+        </p>
+
+
+    </div>
+    <hr>
+
+
+
+
+
+</body>
+
+</html>
